@@ -62,11 +62,23 @@ a {
 
 .header-right a {
     color: var(--color-100);
-    transition: all ease 0.3s ;
+    transition: all ease 0.5s ;
+    padding: 3px;
+    line-height: 1.2em;
+  color: #0000;
+  text-shadow: 
+    0 0 #000, 
+    0 1.2em #1095c1;
+  overflow: hidden;
+  transition: .3s;
 }
 
 .header-right a:hover {
-    color: var(--color-450);
+    /* box-shadow: inset 100px 0 0 0 var(--color-400); */
+    /* color: white; */
+    text-shadow: 
+    0 -1.2em #000, 
+    0 0 var(--color-400);
 }
 
 /* Hero */
@@ -111,6 +123,10 @@ a {
     flex-wrap: wrap;
 }
 
+.container-projects h1 {
+    text-decoration: underline;
+}
+
 .grid-col-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -122,12 +138,12 @@ a {
     width: 450px;
     height: 380px;
     border-radius: 3px;
-    box-shadow: 5px 5px black, 5px 5px #ccc;
+    box-shadow: 5px 5px var(--color-100), 5px 5px var(--color-150);
     transition:all ease 0.5s;
 }
 
 .grid-box:hover {
-    box-shadow: 5px 5px black, -5px -5px #ccc;
+    box-shadow: 0px 0px var(--color-100), -5px -5px var(--color-300);
 }
 
 .card {
@@ -171,11 +187,11 @@ a {
     height: 280px;
     border-radius: 3px;
     transition:all ease 0.5s;
-    box-shadow: 5px 5px black, 5px 5px #ccc;
+    box-shadow: 5px 5px var(--color-100), 5px 5px var(--color-150);
 }
 
 .img-box:hover {
-    box-shadow: 5px 5px black, -5px -5px #ccc;
+    box-shadow: 0px 0px var(--color-100), -5px -5px var(--color-300);
 }
 
 /* SKills section */
