@@ -4,10 +4,14 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    text-decoration: none;
+    list-style: none;
     font-family: 'League Spartan', sans-serif;
 }
 
 :root {
+
+    /* colors */
     --color-50: #d1622e ;
     --color-100: #21130d;
     --color-150: #dbdad5;
@@ -15,5 +19,15 @@
     --color-250: #000000;
     --color-300: #e1e6fe;
     --color-350: #2237d6;
+
+    /* text */
+    --text-size: 10px ;
+    --text-size: 14px;
+    --text-size: 16px;
+    --text-size: 20px;
+    --text-size: 22px;
+    --text-size: 26px;
+    --text-size: 32px;
 }
 
+/* Header */
