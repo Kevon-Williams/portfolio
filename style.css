@@ -10,6 +10,11 @@
     font-family: 'League Spartan', sans-serif;
 }
 
+a {
+    color: var(--color-100);
+}
+
+
 :root {
 
     /* colors */
@@ -21,6 +26,7 @@
     --color-300: #e1e6fe;
     --color-350: #2237d6;
     --color-400: #668595;
+    --color-450: red;
 
     /* text */
     --text-size-50:  10px ;
@@ -29,7 +35,10 @@
     --text-size-200: 20px;
     --text-size-250: 22px;
     --text-size-300: 26px;
-    --text-size-350: 32px;
+    --text-size-400: 32px;
+    --text-size-450: 36px;
+    --text-size-500: 40px;
+    --text-size-550: 46px;
 }
 
 /* Header */
@@ -52,8 +61,59 @@
 
 .header-right a {
     color: var(--color-100);
+    transition: all ease 0.3s ;
 }
 
 .header-right a:hover {
-    color: var(--color-400);
+    color: var(--color-450);
 }
+
+/* Hero */
+
+.hero {
+    background-image: url(img/);
+    height: 450px;
+    width: 100%;
+}
+
+
+
+.container-hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 170px;
+    color: var(--color-100);
+    gap: 30px;
+}
+
+.container-hero h1 {
+    font-size: var(--text-size-550);
+}
+
+.container-hero p {
+    text-align: center;
+    font-size: var(--text-size-300);
+    width: 500px;
+}
+
+.btn {
+    width: 170px;
+    text-align: center;
+    border: none;
+    text-decoration: underline;
+    background-color: var(--color-200);
+    font-size: var(--text-size-200);
+}
+
+.btn a{
+    transition: all ease 0.3s;
+}
+
+.btn a:hover {
+    color: var(--color-450);
+}
+
+
+
