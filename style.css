@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
 
+
 * {
     box-sizing: border-box;
     padding: 0px;
@@ -15,19 +16,44 @@
     --color-50: #d1622e ;
     --color-100: #21130d;
     --color-150: #dbdad5;
-    --color-200: #fef9e1;
+    --color-200: #fff;
     --color-250: #000000;
     --color-300: #e1e6fe;
     --color-350: #2237d6;
+    --color-400: #668595;
 
     /* text */
-    --text-size: 10px ;
-    --text-size: 14px;
-    --text-size: 16px;
-    --text-size: 20px;
-    --text-size: 22px;
-    --text-size: 26px;
-    --text-size: 32px;
+    --text-size-50:  10px ;
+    --text-size-100: 14px;
+    --text-size-150: 16px;
+    --text-size-200: 20px;
+    --text-size-250: 22px;
+    --text-size-300: 26px;
+    --text-size-350: 32px;
 }
 
 /* Header */
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    align-items: center;
+    font-size: var(--text-size-250);
+    background-color: var(--color-200);
+    color: var(--color-100);
+}
+
+.header-right {
+    display: flex;
+    gap: 30px;
+    color: var(--color-100);
+}
+
+.header-right a {
+    color: var(--color-100);
+}
+
+.header-right a:hover {
+    color: var(--color-400);
+}
