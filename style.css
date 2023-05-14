@@ -122,7 +122,12 @@ a {
     width: 450px;
     height: 380px;
     border-radius: 3px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 5px 5px black, 5px 5px #ccc;
+    transition:all ease 0.5s;
+}
+
+.grid-box:hover {
+    box-shadow: 5px 5px black, -5px -5px #ccc;
 }
 
 .card {
@@ -165,7 +170,29 @@ a {
     width: 350px;
     height: 280px;
     border-radius: 3px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transition:all ease 0.5s;
+    box-shadow: 5px 5px black, 5px 5px #ccc;
+}
+
+.img-box:hover {
+    box-shadow: 5px 5px black, -5px -5px #ccc;
+}
+
+/* SKills section */
+
+.container-skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+    gap: 60px;
+    font-size: 25px ;
+}
+
+.skills-logo img {
+    width: 120px;
+    height: 120px;
 }
 
 /* responsiveness */
