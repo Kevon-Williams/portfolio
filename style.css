@@ -11,6 +11,10 @@
     /* outline: 1px solid red; */
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 a {
     color: var(--color-100);
 }
