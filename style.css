@@ -8,6 +8,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'League Spartan', sans-serif;
+    /* outline: 1px solid red; */
 }
 
 a {
@@ -45,7 +46,7 @@ a {
 
 .container-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 40px 100px;
     align-items: center;
     font-size: var(--text-size-250);
@@ -70,11 +71,7 @@ a {
 
 /* Hero */
 
-.hero {
-    background-image: url(img/);
-    height: 450px;
-    width: 100%;
-}
+
 
 
 
@@ -83,7 +80,7 @@ a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding-top: 170px;
+    padding-top: 60px;
     color: var(--color-100);
     gap: 30px;
 }
@@ -98,22 +95,26 @@ a {
     width: 500px;
 }
 
-.btn {
-    width: 170px;
-    text-align: center;
-    border: none;
-    text-decoration: underline;
-    background-color: var(--color-200);
-    font-size: var(--text-size-200);
+
+
+
+/* Projects main */
+
+.container-projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    gap: 180px;
 }
 
-.btn a{
-    transition: all ease 0.3s;
+.grid-col-2 {
+    display: grid;
 }
 
-.btn a:hover {
-    color: var(--color-450);
+.grid-box {
+    border: 1px solid var(--color-100);
+    width: 40px;
+
 }
-
-
-
